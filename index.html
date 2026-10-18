@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio LK 2 - Muhammad Izzul Fahmi | PPG Calon Guru</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-brand-500/20">
+                        IF
+                    </div>
+                    <div>
+                        <span class="font-bold text-slate-900 text-base sm:text-lg block leading-tight">Muhammad Izzul Fahmi</span>
+                        <span class="text-xs text-brand-600 font-medium tracking-wide uppercase">PPG Calon Guru SD</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="#profil" class="text-sm font-medium text-slate-600 hover:text-brand-600 px-3 py-2 rounded-lg hover:bg-slate-100 transition-colors">Profil</a>
+                    <a href="#mata-kuliah" class="text-sm font-semibold text-white bg-brand-600 hover:bg-brand-700 px-4 py-2 rounded-xl shadow-md shadow-brand-500/20 transition-all flex items-center space-x-2">
+                        <i class="fa-solid fa-book-open text-xs"></i>
+                        <span>Refleksi LK 2</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / PROFILE SECTION -->
+    <section id="profil" class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28 bg-gradient-to-b from-white via-slate-50 to-slate-100">
+        <div class="absolute inset-0 z-0 opacity-30">
+            <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-brand-100 filter blur-3xl"></div>
+            <div class="absolute top-60 -left-20 w-80 h-80 rounded-full bg-indigo-100 filter blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Profile Info -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 bg-brand-50 border border-brand-100 px-4 py-2 rounded-full text-brand-700 text-xs font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span>E-Portfolio Refleksi Pengalaman Belajar</span>
+                    </div>
+                    
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                        Lembar Kerja 2 (LK 2)<br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-indigo-600 to-purple-600">
+                            Pendidikan Profesi Guru
+                        </span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Selamat datang di dokumentasi refleksi holistik pengalaman belajar setiap mata kuliah. Halaman ini menyajikan rekam jejak transformasi kognitif, afektif, dan pedagogis sebagai bukti komitmen menjadi Guru Sekolah Dasar yang Profesional, Humanis, dan Inovatif.
+                    </p>
+
+                    <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#mata-kuliah" class="w-full sm:w-auto px-8 py-4 bg-brand-600 hover:bg-brand-700 text-white font-semibold rounded-2xl shadow-lg shadow-brand-500/30 hover:shadow-brand-500/50 hover:-translate-y-0.5 transition-all flex items-center justify-center space-x-3 group">
+                            <span>Lanjutkan ke Menu Mata Kuliah</span>
+                            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <a href="#info-program" class="w-full sm:w-auto px-6 py-4 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 font-semibold rounded-2xl transition-all text-center">
+                            Informasi Program
+                        </a>
+                    </div>
+
+                    <!-- Key Stats / Badges -->
+                    <div class="pt-8 border-t border-slate-200 grid grid-cols-3 gap-4 text-center lg:text-left">
+                        <div>
+                            <span class="block text-2xl font-bold text-slate-900">6 MK</span>
+                            <span class="text-xs text-slate-500 font-medium">Mata Kuliah Utama</span>
+                        </div>
+                        <div>
+                            <span class="block text-2xl font-bold text-brand-600">100%</span>
+                            <span class="text-xs text-slate-500 font-medium">Refleksi 4C & Artefak</span>
+                        </div>
+                        <div>
+                            <span class="block text-2xl font-bold text-indigo-600">SDN Tegal Besar 03</span>
+                            <span class="text-xs text-slate-500 font-medium">Mitra PPL Terbimbing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card Profile -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-brand-600 to-indigo-600 rounded-3xl transform rotate-3 scale-105 opacity-20 filter blur-xl"></div>
+                        
+                        <div class="relative bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-xl space-y-6">
+                            <div class="flex items-center space-x-4">
+                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-tr from-brand-500 to-indigo-600 flex items-center justify-center text-white text-3xl font-bold shadow-lg shadow-brand-500/30">
+                                    IF
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-slate-900">Muhammad Izzul Fahmi</h3>
+                                    <p class="text-sm text-brand-600 font-semibold">Mahasiswa PPG Calon Guru</p>
+                                    <p class="text-xs text-slate-500">PGSD - Universitas Jember</p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-3 bg-slate-50 p-4 rounded-2xl border border-slate-100 text-sm">
+                                <div class="flex justify-between items-center py-1 border-b border-slate-200/60">
+                                    <span class="text-slate-500 font-medium">Status</span>
+                                    <span class="text-slate-900 font-semibold bg-emerald-100 text-emerald-800 text-xs px-2.5 py-0.5 rounded-full">Aktif Mahasiswa</span>
+                                </div>
+                                <div class="flex justify-between items-center py-1 border-b border-slate-200/60">
+                                    <span class="text-slate-500 font-medium">Jenjang Target</span>
+                                    <span class="text-slate-900 font-semibold">Guru Kelas SD</span>
+                                </div>
+                                <div class="flex justify-between items-center py-1">
+                                    <span class="text-slate-500 font-medium">Lokasi PPL</span>
+                                    <span class="text-slate-900 font-semibold text-right">UPTD SDN Tegal Besar 03 Jember</span>
+                                </div>
+                            </div>
+
+                            <div class="p-4 bg-brand-50/60 rounded-2xl border border-brand-100">
+                                <p class="text-xs text-brand-900 italic leading-relaxed text-center">
+                                    "Menuntun dan memanusiakan murid sesuai kodrat alam dan kodrat zamannya melalui pembelajaran yang berkesadaran, bermakna, dan menggembirakan."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN REFLECTION DASHBOARD (MATA KULIAH MENU) -->
+    <section id="mata-kuliah" class="py-16 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            
+            <!-- Section Title -->
+            <div class="text-center space-y-3 max-w-3xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">
+                    Daftar Refleksi LK 2 Setiap Mata Kuliah
+                </h2>
+                <p class="text-sm sm:text-base text-slate-600">
+                    Pilih salah satu mata kuliah di bawah ini untuk melihat detail Lembar Kerja 2 yang memuat Refleksi 4C (*Connection, Challenge, Concept, Change*), Analisis Artefak Pembelajaran, dan Jurnal Refleksi Akhir secara rinci.
+                </p>
+            </div>
+
+            <!-- COURSE CARDS GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- MK 1: Filosofi Pendidikan -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl font-bold group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-landmark"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 tracking-wider uppercase">Mata Kuliah 01</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 leading-snug">Filosofi Pendidikan dan Pendidikan Nilai</h3>
+                        </div>
+                        <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                            Membahas pemikiran Ki Hadjar Dewantara, sistem Among, pendidikan nilai Pancasila, kode etik profesi guru, dan pergeseran paradigma menuntun murid.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-500"><i class="fa-solid fa-paperclip mr-1"></i> 2 Artefak</span>
+                        <button onclick="openModal('modal-filosofi')" class="px-4 py-2 bg-slate-900 hover:bg-brand-600 text-white text-xs font-semibold rounded-xl transition-colors flex items-center space-x-1">
+                            <span>Buka Refleksi</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MK 2: Pemahaman Peserta Didik -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center text-xl font-bold group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-users-viewfinder"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-blue-600 tracking-wider uppercase">Mata Kuliah 02</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 leading-snug">Pemahaman Tentang Peserta Didik dan Pembelajaran</h3>
+                        </div>
+                        <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                            Fokus pada profiling murid secara holistik, teori perkembangan kognitif & sosial-emosional, serta perencanaan pembelajaran berdiferensiasi.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-500"><i class="fa-solid fa-paperclip mr-1"></i> Artefak Profiling</span>
+                        <button onclick="openModal('modal-ppd')" class="px-4 py-2 bg-slate-900 hover:bg-brand-600 text-white text-xs font-semibold rounded-xl transition-colors flex items-center space-x-1">
+                            <span>Buka Refleksi</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MK 3: PMA Dasar (Umum) -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl font-bold group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-emerald-600 tracking-wider uppercase">Mata Kuliah 03</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 leading-snug">Pembelajaran Mendalam dan Asesmen (PMA) Dasar</h3>
+                        </div>
+                        <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                            Penerapan 3 prinsip utama Deep Learning (mindful, meaningful, joyful), alur Memahami-Mengaplikasikan-Merefleksi, dan evaluasi peer-review.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-500"><i class="fa-solid fa-paperclip mr-1"></i> Infografis & Review</span>
+                        <button onclick="openModal('modal-pma')" class="px-4 py-2 bg-slate-900 hover:bg-brand-600 text-white text-xs font-semibold rounded-xl transition-colors flex items-center space-x-1">
+                            <span>Buka Refleksi</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MK 4: Growth Mindset -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center text-xl font-bold group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-purple-600 tracking-wider uppercase">Mata Kuliah 04</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 leading-snug">Pola Pikir Bertumbuh (Growth Mindset)</h3>
+                        </div>
+                        <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                            Penguatan neuroplastisitas otak, analisis dikotomi kognitif CBT vs OBT, instrumen MAP, serta perancangan budaya kelas "The Power of Yet".
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-500"><i class="fa-solid fa-paperclip mr-1"></i> LK 2.3 Neurosains</span>
+                        <button onclick="openModal('modal-growth')" class="px-4 py-2 bg-slate-900 hover:bg-brand-600 text-white text-xs font-semibold rounded-xl transition-colors flex items-center space-x-1">
+                            <span>Buka Refleksi</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MK 5: Bahasa Inggris Guru SD -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-2xl bg-rose-100 text-rose-700 flex items-center justify-center text-xl font-bold group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-rose-600 tracking-wider uppercase">Mata Kuliah 05</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 leading-snug">Bahasa Inggris untuk Guru SD</h3>
+                        </div>
+                        <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                            Penerapan Classroom English rutin, teknik attention getters, scaffolding gestur & visual, serta pengintegrasian gawai Wayground & Simon Says.
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-500"><i class="fa-solid fa-paperclip mr-1"></i> 3 Artefak Modul/Poster</span>
+                        <button onclick="openModal('modal-bing')" class="px-4 py-2 bg-slate-900 hover:bg-brand-600 text-white text-xs font-semibold rounded-xl transition-colors flex items-center space-x-1">
+                            <span>Buka Refleksi</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- MK 6: PPL Terbimbing -->
+                <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div class="space-y-4">
+                        <div class="w-12 h-12 rounded-2xl bg-teal-100 text-teal-700 flex items-center justify-center text-xl font-bold group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-teal-600 tracking-wider uppercase">Mata Kuliah 06</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 leading-snug">Praktik Pengalaman Lapangan (PPL) Terbimbing</h3>
+                        </div>
+                        <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                            Pengalaman nyata 3 siklus mengajar di UPTD SDN Tegal Besar 03 Jember, media manipulatif plastisin/busur, kuis Wordwall, dan Web "GEMA".
+                        </p>
+                    </div>
+                    <div class="pt-6 mt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-500"><i class="fa-solid fa-paperclip mr-1"></i> E-Portfolio Canva UAS</span>
+                        <button onclick="openModal('modal-ppl')" class="px-4 py-2 bg-slate-900 hover:bg-brand-600 text-white text-xs font-semibold rounded-xl transition-colors flex items-center space-x-1">
+                            <span>Buka Refleksi</span>
+                            <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-center md:text-left">
+                <span class="font-bold text-lg block">Muhammad Izzul Fahmi</span>
+                <span class="text-xs text-slate-400">E-Portfolio Refleksi LK 2 Semester 1 & 2 - PPG Calon Guru SD</span>
+            </div>
+            <div class="text-xs text-slate-500 text-center md:text-right">
+                &copy; 2026 Muhammad Izzul Fahmi. All rights reserved.<br>
+                Dikembangkan untuk Tugas Seminar Pendidikan Profesi Guru
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================== -->
+    <!-- MODAL POPUPS FOR EACH COURSE REFLECTION -->
+    <!-- ========================================== -->
+
+    <!-- MODAL 1: FILOSOFI PENDIDIKAN -->
+    <div id="modal-filosofi" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+            <!-- Modal Header -->
+            <div class="p-6 bg-slate-900 text-white flex justify-between items-start border-b border-slate-800">
+                <div>
+                    <span class="text-xs text-amber-400 font-bold uppercase tracking-wider">Mata Kuliah 01</span>
+                    <h3 class="text-xl font-bold">Filosofi Pendidikan dan Pendidikan Nilai</h3>
+                </div>
+                <button onclick="closeModal('modal-filosofi')" class="text-slate-400 hover:text-white text-2xl font-bold p-1">&times;</button>
+            </div>
+            <!-- Modal Body -->
+            <div class="p-6 sm:p-8 overflow-y-auto space-y-6 custom-scrollbar text-sm text-slate-700 leading-relaxed">
+                <div class="bg-amber-50 border border-amber-200 p-4 rounded-2xl">
+                    <h4 class="font-bold text-amber-900 mb-2">1. Refleksi Pengalaman Belajar (4C)</h4>
+                    <div class="space-y-3">
+                        <p><strong>1. Connection:</strong> Materi perkuliahan ini memberikan landasan berpikir mengenai hakikat pendidikan dan nilai-nilai guru. Melalui Topik 1, saya memahami filosofi Ki Hadjar Dewantara (KHD) dan Pancasila untuk menuntun murid sesuai kodrat alam dan zamannya (*Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tut Wuri Handayani*). Topik 2 mengajarkan *growth mindset*, Topik 3 pendidikan nilai moral/karakter, dan Topik 4 kode etik profesi guru.</p>
+                        <p><strong>2. Challenge:</strong> Sebelum kuliah ini, saya memandang mengajar sebagai transfer materi dan pencapaian tujuan hafalan semata. Perkuliahan ini mengubah sudut pandang saya bahwa mengajar adalah menuntun murid sebagai subjek, serta menilai proses dan usaha ketimbang hasil akhir saja.</p>
+                        <p><strong>3. Concept:</strong> Konsep utama yang dipelajari mencakup Sistem Among & asas Trikon KHD, pendidikan nilai terintegrasi (bukan terpisah), Profil Pelajar Pancasila, dan Kode Etik Profesi Guru sebagai panduan integritas.</p>
+                        <p><strong>4. Change:</strong> Komitmen perubahan saya adalah merancang pembelajaran kontekstual yang sesuai kodrat alam/zaman, mengadopsi *growth mindset*, mengintegrasikan pendidikan nilai Pancasila lewat keteladanan harian, dan mematuhi kode etik profesi.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-slate-900">2. Analisis Artefak Pembelajaran</h4>
+                    <p><strong>Artefak Dipilih:</strong> LK 3.D Peran Guru dalam Pendidikan Nilai & Tugas 3.3 Diskusi Pemecahan Kasus.</p>
+                    <p><strong>Link Artefak:</strong> <a href="https://drive.google.com/drive/folders/1aQEDxMLA5Oec9k0OyKSx4qvQpC5MgthS?usp=drive_link" target="_blank" class="text-brand-600 underline font-semibold">Tautan Google Drive Artefak LK 3.D & 3.3</a></p>
+                    <p><strong>Alasan Pemilihan:</strong> Membedah peran nyata pendidik sebagai *role model* serta melatih analisis kritis menyelesaikan dilema moral di sekolah berbasis pendekatan humanis.</p>
+                    <p><strong>Bagian Spesifik:</strong> Strategi pengintegrasian nilai karakter pada LK 3.D mendukung poin *Change* & *Concept*, sedangkan analisis solusi kasus Tugas 3.3 memperkuat poin *Challenge* terkait pergeseran dari pendekatan otoriter menuju pendekatan yang menuntun.</p>
+                </div>
+
+                <div class="p-4 bg-brand-50 rounded-2xl border border-brand-200">
+                    <h4 class="font-bold text-brand-900 mb-1">3. Jurnal Refleksi Akhir</h4>
+                    <p class="italic text-xs text-brand-800">"Mata kuliah ini mengubah cara pandang saya terhadap makna pendidikan. Guru adalah penuntun yang membantu murid berkembang sesuai kodrat alam dan zamannya. Saya makin siap menjadi guru yang profesional, humanis, dan berkarakter."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: PEMAHAMAN PESERTA DIDIK -->
+    <div id="modal-ppd" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+            <div class="p-6 bg-slate-900 text-white flex justify-between items-start border-b border-slate-800">
+                <div>
+                    <span class="text-xs text-blue-400 font-bold uppercase tracking-wider">Mata Kuliah 02</span>
+                    <h3 class="text-xl font-bold">Pemahaman Tentang Peserta Didik dan Pembelajaran</h3>
+                </div>
+                <button onclick="closeModal('modal-ppd')" class="text-slate-400 hover:text-white text-2xl font-bold p-1">&times;</button>
+            </div>
+            <div class="p-6 sm:p-8 overflow-y-auto space-y-6 custom-scrollbar text-sm text-slate-700 leading-relaxed">
+                <div class="bg-blue-50 border border-blue-200 p-4 rounded-2xl">
+                    <h4 class="font-bold text-blue-900 mb-2">1. Refleksi Pengalaman Belajar (4C)</h4>
+                    <div class="space-y-3">
+                        <p><strong>1. Connection:</strong> Membekali kemampuan memahami murid secara holistik (kognitif, sosial, emosional, moral, fisik, budaya). Mempelajari teori Piaget, Vygotsky, Erikson, dan Kohlberg untuk mendasari pemilihan strategi pembelajaran.</p>
+                        <p><strong>2. Challenge:</strong> Dulu saya menganggap satu strategi sama bisa diterapkan ke semua murid. Sekarang saya menyadari bahwa efektivitas pembelajaran diawali dengan pemahaman holistik dan *profiling* murid terlebih dahulu.</p>
+                        <p><strong>3. Concept:</strong> Konsep penting meliputi *profiling* holistik murid, teori perkembangan anak, penanganan keberagaman keberbakatan/gaya belajar, dan *student-centered learning*.</p>
+                        <p><strong>4. Change:</strong> Komitmen saya adalah membiasakan *profiling* diagnostik awal, merancang pembelajaran *student-centered*, serta mendampingi perkembangan kognitif dan sosial-emosional murid secara seimbang.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-slate-900">2. Analisis Artefak Pembelajaran</h4>
+                    <p><strong>Artefak Dipilih:</strong> Lembar Kerja Aktivitas Profiling Peserta Didik (LK 4a & LK 4b).</p>
+                    <p><strong>Link Artefak:</strong> <a href="https://drive.google.com/drive/folders/1ehvQnVCc1mDhkjsCsQSwf2CkxPKIM2lj?usp=drive_link" target="_blank" class="text-brand-600 underline font-semibold">Tautan Google Drive Artefak Profiling</a></p>
+                    <p><strong>Alasan Pemilihan:</strong> Menyajikan bukti otentik perancangan instrumen tes diagnostik, observasi, wawancara, hingga pengolahan data pemetaan karakteristik murid.</p>
+                    <p><strong>Bagian Spesifik:</strong> Kisi-kisi dan lembar observasi LK 4a mendukung poin *Concept*, sedangkan tabel pemetaan dan rekomendasi diferensiasi LK 4b mendukung poin *Change* & *Challenge*.</p>
+                </div>
+
+                <div class="p-4 bg-blue-50/80 rounded-2xl border border-blue-200">
+                    <h4 class="font-bold text-blue-900 mb-1">3. Jurnal Refleksi Akhir</h4>
+                    <p class="italic text-xs text-blue-800">"Keberhasilan pembelajaran ditentukan oleh kemampuan guru memahami murid secara utuh. Saya berkomitmen menjadi guru reflektif dan inklusif yang mengambil keputusan berdasarkan data profiling faktual."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 3: PMA DASAR (UMUM) -->
+    <div id="modal-pma" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+            <div class="p-6 bg-slate-900 text-white flex justify-between items-start border-b border-slate-800">
+                <div>
+                    <span class="text-xs text-emerald-400 font-bold uppercase tracking-wider">Mata Kuliah 03</span>
+                    <h3 class="text-xl font-bold">Pembelajaran Mendalam dan Asesmen (PMA) Dasar</h3>
+                </div>
+                <button onclick="closeModal('modal-pma')" class="text-slate-400 hover:text-white text-2xl font-bold p-1">&times;</button>
+            </div>
+            <div class="p-6 sm:p-8 overflow-y-auto space-y-6 custom-scrollbar text-sm text-slate-700 leading-relaxed">
+                <div class="bg-emerald-50 border border-emerald-200 p-4 rounded-2xl">
+                    <h4 class="font-bold text-emerald-900 mb-2">1. Refleksi Pengalaman Belajar (4C)</h4>
+                    <div class="space-y-3">
+                        <p><strong>1. Connection:</strong> Menghubungkan peran guru dalam merancang Pembelajaran Mendalam (*Deep Learning*) berbasis 3 prinsip: *mindful, meaningful, joyful* melalui alur Memahami, Mengaplikasikan, dan Merefleksi menggunakan kerangka UbD & PBL.</p>
+                        <p><strong>2. Challenge:</strong> Mengubah paradigma lama dari *surface learning* (hafalan) menjadi *deep learning* melalui pertanyaan pemantik kontekstual dan eksperimen langsung (seperti meracik sirop untuk rasio atau isu sampah plastik).</p>
+                        <p><strong>3. Concept:</strong> Konsep utama mencakup 3 Prinsip Deep Learning, Alur Pengalaman Belajar 3M, Pembelajaran Kontekstual PBL & *Scaffolding*, serta *Collaborative Inquiry* & *Peer-Review*.</p>
+                        <p><strong>4. Change:</strong> Komitmen menyusun RPM berbasis alur Memahami-Mengaplikasikan-Merefleksi, menggunakan eksperimen/observasi nyata, dan membiasakan evaluasi *peer-review* berkelanjutan.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-slate-900">2. Analisis Artefak Pembelajaran</h4>
+                    <p><strong>Artefak Dipilih:</strong> Infografis Hasil Kerja Kelompok 4 (Topik 1.C) & Review Hasil Kerja Kelompok 5 dan 6.</p>
+                    <p><strong>Link Artefak:</strong> <a href="https://drive.google.com/drive/folders/1rFwdSULF5lcK3v9P3U4vk4wFgXhU6Qoo?usp=sharing" target="_blank" class="text-brand-600 underline font-semibold">Tautan Google Drive Artefak PMA</a></p>
+                    <p><strong>Alasan Pemilihan:</strong> Merekam proses analisis kesenjangan *surface* vs *deep learning* pada 3 studi kasus serta membuktikan kemampuan evaluasi kritis melalui *peer-review*.</p>
+                    <p><strong>Bagian Spesifik:</strong> Desain ulang 3 studi kasus (Siklus Air, Racikan Sirop, Teks Sampah Plastik) serta catatan evaluasi kelompok pendukung poin *Concept* dan *Change*.</p>
+                </div>
+
+                <div class="p-4 bg-emerald-50/80 rounded-2xl border border-emerald-200">
+                    <h4 class="font-bold text-emerald-900 mb-1">3. Jurnal Refleksi Akhir</h4>
+                    <p class="italic text-xs text-emerald-800">"Pembelajaran sejati adalah proses menumbuhkan pemahaman murid secara holistik melalui suasana mindful, meaningful, dan joyful. Saya berkomitmen menghadirkan kelas berorientasi Deep Learning."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 4: GROWTH MINDSET -->
+    <div id="modal-growth" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+            <div class="p-6 bg-slate-900 text-white flex justify-between items-start border-b border-slate-800">
+                <div>
+                    <span class="text-xs text-purple-400 font-bold uppercase tracking-wider">Mata Kuliah 04</span>
+                    <h3 class="text-xl font-bold">Pola Pikir Bertumbuh (Growth Mindset) dalam Pembelajaran</h3>
+                </div>
+                <button onclick="closeModal('modal-growth')" class="text-slate-400 hover:text-white text-2xl font-bold p-1">&times;</button>
+            </div>
+            <div class="p-6 sm:p-8 overflow-y-auto space-y-6 custom-scrollbar text-sm text-slate-700 leading-relaxed">
+                <div class="bg-purple-50 border border-purple-200 p-4 rounded-2xl">
+                    <h4 class="font-bold text-purple-900 mb-2">1. Refleksi Pengalaman Belajar (4C)</h4>
+                    <div class="space-y-3">
+                        <p><strong>1. Connection:</strong> Membentuk fondasi mental dan iklim kelas inklusif melalui neurosains (*neuroplasticity*), instrumen MAP (FF, FG, GF, GG), serta 4 teknik intervensi (*Cognitive Reframing, Scaffolding, OBT, Formative Assessment*).</p>
+                        <p><strong>2. Challenge:</strong> Mengubah kebiasaan lama memberikan pujian pribadi (*person praise*) menjadi pujian proses (*process praise*), serta memandang kesalahan sebagai *Productive Failure* yang memperkuat sinapsis otak.</p>
+                        <p><strong>3. Concept:</strong> Konsep penting meliputi Neuroplastisitas Otak, Dikotomi CBT vs OBT (*Opportunity-Based Thinking*), Hirarki MST (*Mindset-Skillset-Toolset*), 4 Kategori MAP, dan Budaya Kelas "The Power of Yet".</p>
+                        <p><strong>4. Change:</strong> Komitmen menggunakan narasi *Growth Mindset Voice*, menghentikan *person praise*, menyediakan *scaffolding* tantangan kognitif, dan menata lingkungan kelas yang *psychological safety*.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-slate-900">2. Analisis Artefak Pembelajaran</h4>
+                    <p><strong>Artefak Dipilih:</strong> LK 2.3 Mengidentifikasi/Membedakan Fungsi Neurosains dalam Menghadapi Tantangan (Cara Otak Melihat Tantangan).</p>
+                    <p><strong>Link Artefak:</strong> <a href="https://drive.google.com/drive/folders/1S0xSmSCbUCVHS2SzMa5HE6SuAyx0Ev88?usp=sharing" target="_blank" class="text-brand-600 underline font-semibold">Tautan Google Drive Artefak LK 2.3 Neurosains</a></p>
+                    <p><strong>Alasan Pemilihan:</strong> Membuktikan kemampuan mendiagnosis landasan neurologis otak dan membedakan dikotomi kognitif CBT vs OBT pada 10 situasi nyata pendidikan.</p>
+                    <p><strong>Bagian Spesifik:</strong> Analisis situasi CBT (pemicu kecemasan), OBT (pemecahan masalah), serta penjelasan neurosains pada tabel pendukung poin *Concept* & *Change*.</p>
+                </div>
+
+                <div class="p-4 bg-purple-50/80 rounded-2xl border border-purple-200">
+                    <h4 class="font-bold text-purple-900 mb-1">3. Jurnal Refleksi Akhir</h4>
+                    <p class="italic text-xs text-purple-800">"Kesalahan saat belajar adalah bukti biologis sinapsis otak sedang giat membentuk koneksi baru. Saya berkomitmen membangun iklim kelas yang menghargai proses dan ketekunan."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 5: BAHASA INGGRIS SD -->
+    <div id="modal-bing" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+            <div class="p-6 bg-slate-900 text-white flex justify-between items-start border-b border-slate-800">
+                <div>
+                    <span class="text-xs text-rose-400 font-bold uppercase tracking-wider">Mata Kuliah 05</span>
+                    <h3 class="text-xl font-bold">Bahasa Inggris untuk Guru SD</h3>
+                </div>
+                <button onclick="closeModal('modal-bing')" class="text-slate-400 hover:text-white text-2xl font-bold p-1">&times;</button>
+            </div>
+            <div class="p-6 sm:p-8 overflow-y-auto space-y-6 custom-scrollbar text-sm text-slate-700 leading-relaxed">
+                <div class="bg-rose-50 border border-rose-200 p-4 rounded-2xl">
+                    <h4 class="font-bold text-rose-900 mb-2">1. Refleksi Pengalaman Belajar (4C)</h4>
+                    <div class="space-y-3">
+                        <p><strong>1. Connection:</strong> Penerapan *Classroom English* pada Topik 1 menciptakan lingkungan belajar imersif & komunikatif sejak dini melalui rutinitas pembuka, doa, presensi warna, dan salam penutup.</p>
+                        <p><strong>2. Challenge:</strong> Mengubah kebiasaan menerjemahkan kata demi kata secara harfiah menjadi penggunaan *scaffolding* berbasis gestur fisik, visual, dan demonstrasi intuitif.</p>
+                        <p><strong>3. Concept:</strong> Elemen penting mencakup teknik *attention getters* (*Hocus Pocus - Time to focus*), alur instruksi rutin terstruktur, serta integrasi gawai Wayground & permainan Simon Says.</p>
+                        <p><strong>4. Change:</strong> Konsistensi menggunakan *Classroom English* tanpa terburu-buru menerjemahkan, memanfaatkan media digital interaktif, dan membiasakan dialog refleksi akhir kelas.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-slate-900">2. Analisis Artefak Pembelajaran</h4>
+                    <p><strong>Artefak Dipilih:</strong> Poster Top 5 Classroom English, Berkas Gabungan LK 1-4, dan Modul Rancangan Pembelajaran Terpadu (*Part of Body*).</p>
+                    <p><strong>Link Artefak:</strong> <a href="https://drive.google.com/file/d/1KfJjvFQknbi3MYzEUIHsqis6pYdL4Qj0/view" target="_blank" class="text-brand-600 underline font-semibold">Tautan Google Drive Modul & Poster Bahasa Inggris</a></p>
+                    <p><strong>Alasan Pemilihan:</strong> Membentuk alur pembuktian belajar utuh dari pengenalan frasa visual hingga penyusunan modul RPP 2 JP yang terintegrasi penuh.</p>
+                    <p><strong>Bagian Spesifik:</strong> Skenario pendahuluan, instruksi operasional Wayground/Simon Says pada kegiatan inti, dan penerapan *attention getters* pada penutup modul mendukung poin *Connection* & *Change*.</p>
+                </div>
+
+                <div class="p-4 bg-rose-50/80 rounded-2xl border border-rose-200">
+                    <h4 class="font-bold text-rose-900 mb-1">3. Jurnal Refleksi Akhir</h4>
+                    <p class="italic text-xs text-rose-800">"Pengajaran Bahasa Inggris di SD harus berorientasi pada keaktifan imersif dan visual tanpa bergantung pada terjemahan langsung. Saya siap mengelola kelas yang aktif dan komunikatif."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 6: PPL TERBIMBING -->
+    <div id="modal-ppl" class="fixed inset-0 z-50 hidden bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-fadeIn">
+            <div class="p-6 bg-slate-900 text-white flex justify-between items-start border-b border-slate-800">
+                <div>
+                    <span class="text-xs text-teal-400 font-bold uppercase tracking-wider">Mata Kuliah 06</span>
+                    <h3 class="text-xl font-bold">Praktik Pengalaman Lapangan (PPL) Terbimbing</h3>
+                </div>
+                <button onclick="closeModal('modal-ppl')" class="text-slate-400 hover:text-white text-2xl font-bold p-1">&times;</button>
+            </div>
+            <div class="p-6 sm:p-8 overflow-y-auto space-y-6 custom-scrollbar text-sm text-slate-700 leading-relaxed">
+                <div class="bg-teal-50 border border-teal-200 p-4 rounded-2xl">
+                    <h4 class="font-bold text-teal-900 mb-2">1. Refleksi Pengalaman Belajar (4C)</h4>
+                    <div class="space-y-3">
+                        <p><strong>1. Connection:</strong> Mengaktualisasikan seluruh teori pedagogis secara nyata di UPTD SDN Tegal Besar 03 Jember melalui 5 tahapan: Orientasi, Observasi, Asistensi, Pembelajaran Terbimbing (3 Siklus), dan Refleksi Akhir.</p>
+                        <p><strong>2. Challenge:</strong> Bergeser dari pengajaran prosedural 1 arah menjadi perancangan RPM *Deep Learning* berbasis analisis kebutuhan, media konkret (plastisin, busur putar), kuis Wordwall, dan aplikasi "GEMA".</p>
+                        <p><strong>3. Concept:</strong> Konsep penting mencakup *Profiling* Murid, Prinsip *Deep Learning* 3M, Pembelajaran Berbasis Masalah (PBL & *Game-Based Learning*), Siklus Refleksi *Reflection-in/on-action*, dan Filosofi Pamong KHD.</p>
+                        <p><strong>4. Change:</strong> Komitmen diawali *need analysis*, memanfaatkan media konkret/digital interaktif, mengelola waktu presisi, menerapkan *scaffolding*, serta mendokumentasikan e-portfolio secara berkelanjutan.</p>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-2xl space-y-3">
+                    <h4 class="font-bold text-slate-900">2. Analisis Artefak Pembelajaran</h4>
+                    <p><strong>Artefak Dipilih:</strong> E-Portfolio Digital Canva PPL Terbimbing (UAS).</p>
+                    <p><strong>Link Artefak:</strong> <a href="https://ppg-indonesia.my.canva.site/uas-portofolio-muhammad-izzul-fahmi" target="_blank" class="text-brand-600 underline font-semibold">Tautan Situs Canva E-Portfolio UAS PPL</a> | <a href="https://izzulfahmy.github.io/gema/" target="_blank" class="text-teal-600 underline font-semibold">Web GEMA Matematika</a></p>
+                    <p><strong>Alasan Pemilihan:</strong> Menyajikan bukti puncak rekam jejak transformasi mengajar 3 siklus di Kelas 3 SD, penilaian resmi DPL & Guru Pamong, serta perumusan filosofi mandiri.</p>
+                    <p><strong>Bagian Spesifik:</strong> Refleksi 3 siklus, narasi Filosofi Mengajar, dokumentasi media plastisin/GEMA, dan lembar asesmen resmi Lampiran 7 & 8 mendukung seluruh poin refleksi.</p>
+                </div>
+
+                <div class="p-4 bg-teal-50/80 rounded-2xl border border-teal-200">
+                    <h4 class="font-bold text-teal-900 mb-1">3. Jurnal Refleksi Akhir</h4>
+                    <p class="italic text-xs text-teal-800">"Mengajar adalah proses sadar menuntun dan memanusiakan murid. Pengalaman PPL Terbimbing memantapkan komitmen saya menjadi guru yang profesional, inovatif, dan berorientasi pada peserta didik."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR MODAL CONTROLS -->
+    <script>
+        function openModal(id) {
+            document.getElementById(id).classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside content
+        window.onclick = function(event) {
+            const modals = ['modal-filosofi', 'modal-ppd', 'modal-pma', 'modal-growth', 'modal-bing', 'modal-ppl'];
+            modals.forEach(id => {
+                const modal = document.getElementById(id);
+                if (event.target === modal) {
+                    closeModal(id);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
